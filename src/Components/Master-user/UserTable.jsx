@@ -109,9 +109,10 @@ const UserTable = ({ users, setUsers }) => {
                 <TableCell className="capitalize">{user.role}</TableCell>
                 <TableCell>
                   <Badge
-                    variant={
-                      user.status === "active" ? "default" : "destructive"
-                    }
+                    className={`${
+                      user.status === "active" ? "bg-green-500" : "bg-red-500"
+                    } items-center`}
+                    // variant={user.status === "active" ? "" : "destructive"}
                   >
                     {user.status}
                   </Badge>

@@ -26,19 +26,13 @@ const TopBar = ({ setSidebarOpen }) => {
           className="flex flex-col justify-center items-center w-10 h-10 gap-1 lg:hidden"
         >
           <div
-            className={`w-6 h-0.5 bg-blue-600 transition-transform duration-300 ${
-              burger ? "rotate-45 translate-y-2" : ""
-            }`}
+            className={`w-6 h-0.5 bg-blue-600 transition-transform duration-300 `}
           ></div>
           <div
-            className={`w-6 h-0.5 bg-blue-600 transition-opacity duration-300 ${
-              burger ? "opacity-0" : "opacity-100"
-            }`}
+            className={`w-5 -translate-x-1 h-0.5 bg-blue-600 transition-opacity duration-300 `}
           ></div>
           <div
-            className={`w-6 h-0.5 bg-blue-600 transition-transform duration-300 ${
-              burger ? "-rotate-45 -translate-y-2" : ""
-            }`}
+            className={`w-6 h-0.5 bg-blue-600 transition-transform duration-300`}
           ></div>
         </button>
 

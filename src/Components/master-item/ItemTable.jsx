@@ -83,9 +83,12 @@ const ItemTable = ({ items, setItems }) => {
                 <TableCell>{formatRupiah(item.price)}</TableCell>
                 <TableCell>
                   <Badge
-                    variant={
-                      item.status === "active" ? "default" : "destructive"
-                    }
+                    className={`${
+                      item.status === "active" ? "bg-green-500" : "bg-red-500"
+                    } hover:bg-blue-700`}
+                    // variant={
+                    //   item.status === "active" ? "default" : "destructive"
+                    // }
                   >
                     {item.status}
                   </Badge>

@@ -1,5 +1,6 @@
 import Cart from "../Components/Layout/Cart";
 import logo from "../assets/people.svg";
+import logo1 from "../assets/icont/report.svg";
 
 import dummyTransaksi from "../Data/dummy_transactions.json";
 import dummyItems from "../Data/Dummy_Items.json";
@@ -33,23 +34,27 @@ const Dashboard = () => {
   const Carts = [
     {
       title: "Transaksi hari ini",
-      img: logo,
+      img: logo1,
       total: transaksiHariIni.length,
+      warna: "blue-500",
     },
     {
       title: "Omset Bulan ini",
-      img: logo,
+      img: logo1,
       total: omzetBulanIni,
+      warna: "yellow-500",
     },
     {
       title: "Total User",
-      img: logo,
+      img: logo1,
       total: totalUser,
+      warna: "red-500",
     },
     {
       title: "Total item Penjualan",
-      img: logo,
+      img: logo1,
       total: totalItem,
+      warna: "green-500",
     },
   ];
 
@@ -57,7 +62,12 @@ const Dashboard = () => {
     <div className="px-3 md:px-7 py-3 flex flex-col gap-2 ">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
         {Carts.map((item, index) => (
-          <Cart key={index} img={item.img} Total={item.total}>
+          <Cart
+            key={index}
+            img={item.img}
+            Total={item.total}
+            color={item.warna}
+          >
             {item.title}
           </Cart>
         ))}

@@ -70,7 +70,7 @@ const Login = () => {
             type="password"
             className="w-full rounded-lg border px-4 py-3"
           />
-          <p>{error}</p>
+          <p className="text-[0.8rem] text-red-500">{error}</p>
         </div>
         <div className="flex gap-2 items-center">
           <input type="checkbox" name="" id="" />

@@ -113,25 +113,33 @@ const TransactionTable = ({ data }) => {
                 <TableCell>{formatRupiah(calcTotal(trx.items))}</TableCell>
                 <TableCell>
                   <Badge
-                    variant={
-                      trx.status === "paid"
-                        ? "default"
-                        : trx.status === "unpaid"
-                        ? "secondary"
-                        : "destructive"
-                    }
+                    className={`${
+                      trx.status === "paid" ? "bg-green-500" : ""
+                    } ${trx.status === "unpaid" ? "bg-yellow-500" : ""} ${
+                      trx.status === "cancel" ? "bg-red-500" : ""
+                    }`}
+                    // variant={
+                    //   trx.status === "paid"
+                    //     ? "default"
+                    //     : trx.status === "unpaid"
+                    //     ? "secondary"
+                    //     : "destructive"
+                    // }
                   >
                     {trx.status}
                   </Badge>
                 </TableCell>
                 <TableCell>
-                  <Button size="sm" onClick={() => setSelectedTrx(trx)}>
+                  <Button
+                    className={`bg-blue-500 hover:bg-blue-700`}
+                    size="sm"
+                    onClick={() => setSelectedTrx(trx)}
+                  >
                     Detail
                   </Button>
                 </TableCell>
               </TableRow>
             ))}
-
             {paginatedData.length === 0 && (
               <TableRow>
                 <TableCell colSpan={6} className="text-center">
@@ -142,8 +150,6 @@ const TransactionTable = ({ data }) => {
           </TableBody>
         </Table>
       </div>
-
-      {/* PAGINATION */}
       {totalPages > 1 && (
         <div className="flex flex-wrap justify-center gap-2 mt-4">
           <Button
@@ -154,7 +160,6 @@ const TransactionTable = ({ data }) => {
           >
             Prev
           </Button>
-
           {Array.from({ length: totalPages }).map((_, i) => {
             const page = i + 1;
             return (

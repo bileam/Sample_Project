@@ -86,7 +86,6 @@ const ItemFormModal = ({ open, setOpen, setItems, initialData }) => {
             <Label>Nama Item</Label>
             <Input name="name" value={form.name} onChange={handleChange} />
           </div>
-
           <div>
             <Label>Harga</Label>
             <Input
@@ -115,7 +114,10 @@ const ItemFormModal = ({ open, setOpen, setItems, initialData }) => {
           <Button variant="outline" onClick={() => setOpen(false)}>
             Batal
           </Button>
-          <Button onClick={handleSubmit}>
+          <Button
+            className={`bg-blue-500 hover:bg-blue-700`}
+            onClick={handleSubmit}
+          >
             {initialData ? "Update" : "Simpan"}
           </Button>
         </DialogFooter>

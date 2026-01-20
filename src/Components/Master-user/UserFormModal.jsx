@@ -34,12 +34,12 @@ const UserFormModal = ({ open, setOpen, setUsers, initialData }) => {
 
   const handleSubmit = () => {
     if (initialData) {
-      // EDIT
+      // Edit Users
       setUsers((prev) =>
         prev.map((u) => (u.id === initialData.id ? { ...u, ...form } : u))
       );
     } else {
-      // ADD
+      // add Users
       setUsers((prev) => [
         ...prev,
         {
@@ -97,10 +97,17 @@ const UserFormModal = ({ open, setOpen, setUsers, initialData }) => {
         </div>
 
         <DialogFooter>
-          <Button variant="outline" onClick={() => setOpen(false)}>
+          <Button
+            className="cursor-pointer"
+            variant="outline"
+            onClick={() => setOpen(false)}
+          >
             Cancel
           </Button>
-          <Button onClick={handleSubmit}>
+          <Button
+            className="bg-blue-500 hover:bg-blue-700 transition-colors duration-300 cursor-pointer"
+            onClick={handleSubmit}
+          >
             {initialData ? "Update" : "Save"}
           </Button>
         </DialogFooter>

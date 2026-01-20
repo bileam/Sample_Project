@@ -76,13 +76,11 @@ const ReportTable = ({ data }) => {
                 </TableCell>
                 <TableCell>
                   <Badge
-                    variant={
-                      trx.status === "paid"
-                        ? "default"
-                        : trx.status === "unpaid"
-                        ? "secondary"
-                        : "destructive"
-                    }
+                    className={`${
+                      trx.status === "paid" ? "bg-green-500" : ""
+                    } ${trx.status === "unpaid" ? "bg-yellow-500" : ""} ${
+                      trx.status === "cancel" ? "bg-red-500" : ""
+                    }`}
                   >
                     {trx.status}
                   </Badge>
