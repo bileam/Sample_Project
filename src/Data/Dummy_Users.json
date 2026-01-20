@@ -1,0 +1,98 @@
+[
+  {
+    "id": "usr_001",
+    "name": "Alpha Guardianadsad",
+    "email": "admin@example.com",
+    "role": "admin",
+    "status": "active",
+    "created_at": "2025-07-10T09:15:00Z"
+  },
+  {
+    "id": "usr_002",
+    "name": "Budi Santoso",
+    "email": "budi@company.test",
+    "role": "staff",
+    "status": "active",
+    "created_at": "2025-08-01T10:00:00Z"
+  },
+  {
+    "id": "usr_003",
+    "name": "Siti Rahma",
+    "email": "siti@company.test",
+    "role": "staff",
+    "status": "inactive",
+    "created_at": "2025-08-12T02:30:00Z"
+  },
+  {
+    "id": "usr_004",
+    "name": "Dimas Pratama",
+    "email": "dimas@company.test",
+    "role": "staff",
+    "status": "active",
+    "created_at": "2025-09-03T14:20:00Z"
+  },
+  {
+    "id": "usr_005",
+    "name": "Nadia Putri",
+    "email": "nadia@company.test",
+    "role": "staff",
+    "status": "active",
+    "created_at": "2025-10-19T07:45:00Z"
+  },
+  {
+    "id": "usr_006",
+    "name": "Rizky Maulana",
+    "email": "rizky@company.test",
+    "role": "staff",
+    "status": "inactive",
+    "created_at": "2025-11-02T12:05:00Z"
+  },
+  {
+    "id": "usr_007",
+    "name": "Fajar Hidayat",
+    "email": "fajar@company.test",
+    "role": "staff",
+    "status": "active",
+    "created_at": "2025-11-10T08:30:00Z"
+  },
+  {
+    "id": "usr_008",
+    "name": "Lina Kurniawati",
+    "email": "lina@company.test",
+    "role": "staff",
+    "status": "active",
+    "created_at": "2025-11-18T03:50:00Z"
+  },
+  {
+    "id": "usr_009",
+    "name": "Andi Saputra",
+    "email": "andi@company.test",
+    "role": "staff",
+    "status": "inactive",
+    "created_at": "2025-12-01T15:10:00Z"
+  },
+  {
+    "id": "usr_010",
+    "name": "Maya Lestari",
+    "email": "maya@company.test",
+    "role": "staff",
+    "status": "active",
+    "created_at": "2025-12-07T06:25:00Z"
+  },
+  {
+    "id": "usr_011",
+    "name": "Arif Nugroho",
+    "email": "arif@company.test",
+    "role": "admin",
+    "status": "active",
+    "created_at": "2025-12-15T09:40:00Z"
+  },
+  {
+    "id": "usr_012",
+    "name": "Putri Ayuningtyas",
+    "email": "putri@company.test",
+    "role": "staff",
+    "status": "inactive",
+    "created_at": "2025-12-20T11:55:00Z"
+  }
+]

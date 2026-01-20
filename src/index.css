@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Times New Roman", Times, serif;
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+}
+
+body {
+  background-color: #ecf1fb;
+  /* #153469 ->sidebar
+  #0753b9 -> button sidebar
+  
+  */
+}

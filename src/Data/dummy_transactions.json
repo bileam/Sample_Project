@@ -1,0 +1,352 @@
+[
+  {
+    "id": "trx_0001",
+    "trx_no": "TRX-2025-0001",
+    "date": "2025-12-01",
+    "customer": { "name": "PT Maju Jaya", "phone": "081234567890" },
+    "status": "paid",
+    "items": [
+      {
+        "item_id": "itm_001",
+        "code": "PRD-001",
+        "name": "Paket Basic",
+        "price": 150000,
+        "qty": 1
+      },
+      {
+        "item_id": "itm_006",
+        "code": "ADD-001",
+        "name": "Add-on Extra User",
+        "price": 50000,
+        "qty": 2
+      }
+    ],
+    "notes": "Pembayaran via transfer"
+  },
+  {
+    "id": "trx_0002",
+    "trx_no": "TRX-2025-0002",
+    "date": "2025-12-03",
+    "customer": { "name": "CV Sinar Terang", "phone": "082211112222" },
+    "status": "unpaid",
+    "items": [
+      {
+        "item_id": "itm_002",
+        "code": "PRD-002",
+        "name": "Paket Pro",
+        "price": 350000,
+        "qty": 1
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0003",
+    "trx_no": "TRX-2025-0003",
+    "date": "2025-12-05",
+    "customer": { "name": "Andi Saputra", "phone": "081355566677" },
+    "status": "cancel",
+    "items": [
+      {
+        "item_id": "itm_004",
+        "code": "SRV-001",
+        "name": "Setup & Onboarding",
+        "price": 500000,
+        "qty": 1
+      }
+    ],
+    "notes": "Dibatalkan customer"
+  },
+
+  {
+    "id": "trx_0004",
+    "trx_no": "TRX-2025-0004",
+    "date": "2025-12-07",
+    "customer": { "name": "PT Sentosa Abadi", "phone": "081211110000" },
+    "status": "paid",
+    "items": [
+      {
+        "item_id": "itm_009",
+        "code": "PRD-004",
+        "name": "Paket Business",
+        "price": 550000,
+        "qty": 1
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0005",
+    "trx_no": "TRX-2025-0005",
+    "date": "2025-12-09",
+    "customer": { "name": "Rina Lestari", "phone": "082233344455" },
+    "status": "paid",
+    "items": [
+      {
+        "item_id": "itm_003",
+        "code": "PRD-003",
+        "name": "Paket Enterprise",
+        "price": 850000,
+        "qty": 1
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0006",
+    "trx_no": "TRX-2025-0006",
+    "date": "2025-12-11",
+    "customer": { "name": "PT Global Tech", "phone": "081988877766" },
+    "status": "unpaid",
+    "items": [
+      {
+        "item_id": "itm_007",
+        "code": "ADD-002",
+        "name": "Add-on Storage Extra",
+        "price": 75000,
+        "qty": 3
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0007",
+    "trx_no": "TRX-2025-0007",
+    "date": "2025-12-13",
+    "customer": { "name": "CV Bintang Timur", "phone": "081233344455" },
+    "status": "cancel",
+    "items": [
+      {
+        "item_id": "itm_004",
+        "code": "SRV-001",
+        "name": "Setup & Onboarding",
+        "price": 500000,
+        "qty": 1
+      }
+    ],
+    "notes": "Cancel karena jadwal"
+  },
+  {
+    "id": "trx_0008",
+    "trx_no": "TRX-2025-0008",
+    "date": "2025-12-15",
+    "customer": { "name": "Agus Pratama", "phone": "081299988877" },
+    "status": "paid",
+    "items": [
+      {
+        "item_id": "itm_006",
+        "code": "ADD-001",
+        "name": "Add-on Extra User",
+        "price": 50000,
+        "qty": 5
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0009",
+    "trx_no": "TRX-2025-0009",
+    "date": "2025-12-17",
+    "customer": { "name": "PT Nusantara Jaya", "phone": "082122223333" },
+    "status": "paid",
+    "items": [
+      {
+        "item_id": "itm_008",
+        "code": "SRV-003",
+        "name": "Training & Workshop",
+        "price": 650000,
+        "qty": 1
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0010",
+    "trx_no": "TRX-2025-0010",
+    "date": "2025-12-20",
+    "customer": { "name": "Dewi Anggraini", "phone": "081377766655" },
+    "status": "unpaid",
+    "items": [
+      {
+        "item_id": "itm_001",
+        "code": "PRD-001",
+        "name": "Paket Basic",
+        "price": 150000,
+        "qty": 2
+      }
+    ],
+    "notes": ""
+  },
+
+  {
+    "id": "trx_0011",
+    "trx_no": "TRX-2026-0011",
+    "date": "2026-01-19",
+    "customer": { "name": "PT Digital Solusi", "phone": "081200011122" },
+    "status": "paid",
+    "items": [
+      {
+        "item_id": "itm_002",
+        "code": "PRD-002",
+        "name": "Paket Pro",
+        "price": 350000,
+        "qty": 1
+      }
+    ],
+    "notes": "Kemarin"
+  },
+  {
+    "id": "trx_0012",
+    "trx_no": "TRX-2026-0012",
+    "date": "2026-01-20",
+    "customer": { "name": "Bima Sakti", "phone": "081288899900" },
+    "status": "paid",
+    "items": [
+      {
+        "item_id": "itm_009",
+        "code": "PRD-004",
+        "name": "Paket Business",
+        "price": 550000,
+        "qty": 1
+      }
+    ],
+    "notes": "Hari ini"
+  },
+  {
+    "id": "trx_0013",
+    "trx_no": "TRX-2026-0013",
+    "date": "2026-01-21",
+    "customer": { "name": "CV Sukses Makmur", "phone": "082233300011" },
+    "status": "unpaid",
+    "items": [
+      {
+        "item_id": "itm_007",
+        "code": "ADD-002",
+        "name": "Add-on Storage Extra",
+        "price": 75000,
+        "qty": 4
+      }
+    ],
+    "notes": "Besok"
+  },
+
+  {
+    "id": "trx_0014",
+    "trx_no": "TRX-2026-0014",
+    "date": "2026-01-18",
+    "customer": { "name": "Rudi Hartono", "phone": "081311122233" },
+    "status": "cancel",
+    "items": [
+      {
+        "item_id": "itm_010",
+        "code": "ADD-003",
+        "name": "Priority Support",
+        "price": 120000,
+        "qty": 1
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0015",
+    "trx_no": "TRX-2026-0015",
+    "date": "2026-01-16",
+    "customer": { "name": "PT Alpha Tech", "phone": "081355544433" },
+    "status": "paid",
+    "items": [
+      {
+        "item_id": "itm_003",
+        "code": "PRD-003",
+        "name": "Paket Enterprise",
+        "price": 850000,
+        "qty": 1
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0016",
+    "trx_no": "TRX-2026-0016",
+    "date": "2026-01-14",
+    "customer": { "name": "Mila Kurnia", "phone": "081277788899" },
+    "status": "paid",
+    "items": [
+      {
+        "item_id": "itm_006",
+        "code": "ADD-001",
+        "name": "Add-on Extra User",
+        "price": 50000,
+        "qty": 2
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0017",
+    "trx_no": "TRX-2026-0017",
+    "date": "2026-01-12",
+    "customer": { "name": "PT Mega Solusi", "phone": "082100009999" },
+    "status": "unpaid",
+    "items": [
+      {
+        "item_id": "itm_001",
+        "code": "PRD-001",
+        "name": "Paket Basic",
+        "price": 150000,
+        "qty": 1
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0018",
+    "trx_no": "TRX-2026-0018",
+    "date": "2026-01-10",
+    "customer": { "name": "Doni Wijaya", "phone": "081366655544" },
+    "status": "paid",
+    "items": [
+      {
+        "item_id": "itm_008",
+        "code": "SRV-003",
+        "name": "Training & Workshop",
+        "price": 650000,
+        "qty": 1
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0019",
+    "trx_no": "TRX-2026-0019",
+    "date": "2026-01-08",
+    "customer": { "name": "PT Cipta Karya", "phone": "082233344499" },
+    "status": "cancel",
+    "items": [
+      {
+        "item_id": "itm_004",
+        "code": "SRV-001",
+        "name": "Setup & Onboarding",
+        "price": 500000,
+        "qty": 1
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "trx_0020",
+    "trx_no": "TRX-2026-0020",
+    "date": "2026-01-06",
+    "customer": { "name": "Sari Puspita", "phone": "081299900011" },
+    "status": "paid",
+    "items": [
+      {
+        "item_id": "itm_009",
+        "code": "PRD-004",
+        "name": "Paket Business",
+        "price": 550000,
+        "qty": 1
+      }
+    ],
+    "notes": ""
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "itm_001",
+    "code": "PRD-001",
+    "name": "Paket Basic",
+    "price": 150000,
+    "status": "active"
+  },
+  {
+    "id": "itm_002",
+    "code": "PRD-002",
+    "name": "Paket Pro",
+    "price": 350000,
+    "status": "active"
+  },
+  {
+    "id": "itm_003",
+    "code": "PRD-003",
+    "name": "Paket Enterprise",
+    "price": 850000,
+    "status": "active"
+  },
+  {
+    "id": "itm_004",
+    "code": "SRV-001",
+    "name": "Setup & Onboarding",
+    "price": 500000,
+    "status": "active"
+  },
+  {
+    "id": "itm_005",
+    "code": "SRV-002",
+    "name": "Maintenance Bulanan",
+    "price": 250000,
+    "status": "inactiv"
+  },
+  {
+    "id": "itm_006",
+    "code": "ADD-001",
+    "name": "Add-on Extra User",
+    "price": 50000,
+    "status": "active"
+  },
+  {
+    "id": "itm_007",
+    "code": "ADD-002",
+    "name": "Add-on Storage Extra",
+    "price": 75000,
+    "status": "active"
+  },
+  {
+    "id": "itm_008",
+    "code": "SRV-003",
+    "name": "Training & Workshop",
+    "price": 650000,
+    "status": "active"
+  },
+  {
+    "id": "itm_009",
+    "code": "PRD-004",
+    "name": "Paket Business",
+    "price": 550000,
+    "status": "active"
+  },
+  {
+    "id": "itm_010",
+    "code": "ADD-003",
+    "name": "Priority Support",
+    "price": 120000,
+    "status": "inactive"
+  }
+]
