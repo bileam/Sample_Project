@@ -45,7 +45,6 @@ const TopBar = ({ setSidebarOpen }) => {
         <h1 className="text-[1.2rem] font-semibold">Dashboard</h1>
       </div>
 
-      {/* Right: User */}
       <div className="flex items-center gap-3 md:gap-5 relative">
         <img src={people} alt="User" className="w-8 h-8 rounded-full" />
 
@@ -64,7 +63,6 @@ const TopBar = ({ setSidebarOpen }) => {
             </span>
           </button>
 
-          {/* Dropdown */}
           <div
             className={`absolute right-0 mt-2 w-28 bg-blue-600 text-white rounded shadow-md p-2 transition-all duration-300 ease-in-out ${
               open

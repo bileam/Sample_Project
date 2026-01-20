@@ -32,7 +32,6 @@ const Sidebar = ({ Open, setSidebarOpen }) => {
         overflow-hidden
       `}
     >
-      {/* Tombol Close hanya untuk mobile */}
       <div className="flex justify-end mb-6 md:hidden">
         {Open && (
           <button
@@ -44,12 +43,10 @@ const Sidebar = ({ Open, setSidebarOpen }) => {
         )}
       </div>
 
-      {/* Logo */}
       <div className="flex items-center justify-start mb-6">
         <h1 className="text-lg font-bold whitespace-nowrap">Admin Kita</h1>
       </div>
 
-      {/* Menu */}
       <nav className="flex flex-col gap-2">
         {sidebarMenu.map((item, idx) => (
           <NavLink

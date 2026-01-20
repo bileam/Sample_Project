@@ -22,7 +22,6 @@ const ItemTable = ({ items, setItems }) => {
   const [openDelete, setOpenDelete] = useState(false);
   const [selectedId, setSelectedId] = useState(null);
 
-  // PAGINATION STATE
   const [page, setPage] = useState(1);
   const ITEMS_PER_PAGE = 5;
 
@@ -42,7 +41,6 @@ const ItemTable = ({ items, setItems }) => {
 
   return (
     <div className="space-y-4">
-      {/* SEARCH + ADD */}
       <div className="flex flex-col sm:flex-row gap-3 justify-between">
         <Input
           placeholder="Search kode / nama item"
@@ -65,7 +63,6 @@ const ItemTable = ({ items, setItems }) => {
         </Button>
       </div>
 
-      {/* TABLE */}
       <div className="overflow-x-auto">
         <Table>
           <TableHeader>
@@ -129,13 +126,10 @@ const ItemTable = ({ items, setItems }) => {
         </Table>
       </div>
 
-      {/* PAGINATION */}
       {totalPages > 1 && (
         <div className="flex justify-center mt-6">
           <div className="flex items-center gap-2 flex-wrap">
-            {/* Prev */}
             <Button
-              // variant="secondary"
               className="rounded-xl px-5 bg-blue-600 hover:bg-blue-700"
               disabled={page === 1}
               onClick={() => setPage(page - 1)}
@@ -143,7 +137,6 @@ const ItemTable = ({ items, setItems }) => {
               Prev
             </Button>
 
-            {/* Page Numbers */}
             {Array.from({ length: totalPages }).map((_, i) => {
               const pageNumber = i + 1;
               const isActive = page === pageNumber;
@@ -164,7 +157,6 @@ const ItemTable = ({ items, setItems }) => {
               );
             })}
 
-            {/* Next */}
             <Button
               className="rounded-xl px-5 bg-blue-600 hover:bg-blue-700"
               disabled={page === totalPages}
@@ -176,7 +168,6 @@ const ItemTable = ({ items, setItems }) => {
         </div>
       )}
 
-      {/* MODAL ADD / EDIT */}
       <ItemFormModal
         open={openForm}
         setOpen={setOpenForm}
@@ -184,7 +175,6 @@ const ItemTable = ({ items, setItems }) => {
         initialData={selectedItem}
       />
 
-      {/* CONFIRM DELETE */}
       <ConfirmDelete
         open={openDelete}
         setOpen={setOpenDelete}

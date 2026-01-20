@@ -17,7 +17,6 @@ const UserFormModal = ({ open, setOpen, setUsers, initialData }) => {
     status: "active",
   });
 
-  // ⬅️ isi data kalau mode edit
   useEffect(() => {
     if (initialData) {
       setForm({

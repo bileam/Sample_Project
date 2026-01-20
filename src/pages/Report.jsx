@@ -3,7 +3,6 @@ import { Input } from "@/components/ui/input";
 import ReportTable from "@/components/report/ReportTable";
 import { calcTotal } from "@/helpers/calcTotal";
 
-// dummy dari transaksi
 import dummyTransactions from "@/data/dummy_transactions";
 
 const Report = () => {
@@ -36,7 +35,7 @@ const Report = () => {
     <div className="">
       <h1 className="text-xl font-bold px-5">Report Transaksi</h1>
 
-      {/* FILTER */}
+     
       <div className="flex flex-wrap gap-1 px-5">
         <select
           className="border rounded px-3 py-2"
@@ -61,7 +60,7 @@ const Report = () => {
         />
       </div>
 
-      {/* TABLE + SUMMARY */}
+    
       <ReportTable data={reportData} />
     </div>
   );

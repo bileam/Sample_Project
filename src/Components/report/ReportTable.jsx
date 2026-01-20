@@ -35,7 +35,6 @@ const ReportTable = ({ data }) => {
 
   return (
     <div className="space-y-1 px-5">
-      {/* SUMMARY */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
         <div className="border rounded px-4 py-2">
           <p className="text-sm text-muted-foreground">Total Transaksi</p>
@@ -46,7 +45,6 @@ const ReportTable = ({ data }) => {
           <p className="text-2xl font-bold">{formatRupiah(totalOmzet)}</p>
         </div>
       </div>
-      {/* EXPORT */}
       <div className="flex justify-end">
         <Button
           className="bg-[#0753b9] hover:bg-[#06449a] w-full sm:w-auto"
@@ -55,8 +53,6 @@ const ReportTable = ({ data }) => {
           Export CSV
         </Button>
       </div>
-
-      {/* TABLE */}
       <div className="overflow-x-auto rounded border">
         <Table className="min-w-175">
           <TableHeader>
@@ -107,8 +103,6 @@ const ReportTable = ({ data }) => {
           </TableBody>
         </Table>
       </div>
-
-      {/* PAGINATION */}
       {totalPages > 1 && (
         <div className="flex flex-wrap items-center justify-center gap-2">
           <div className="flex gap-2">

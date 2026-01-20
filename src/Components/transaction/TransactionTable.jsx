@@ -25,7 +25,6 @@ const TransactionTable = ({ data }) => {
 
   const [currentPage, setCurrentPage] = useState(1);
 
-  // FILTER DATA
   const filteredData = data.filter((trx) => {
     const matchSearch =
       trx.trx_no.toLowerCase().includes(search.toLowerCase()) ||
@@ -41,12 +40,10 @@ const TransactionTable = ({ data }) => {
     return matchSearch && matchStatus && matchDate;
   });
 
-  // RESET PAGE SAAT FILTER BERUBAH
   useEffect(() => {
     setCurrentPage(1);
   }, [search, status, startDate, endDate]);
 
-  // PAGINATION LOGIC
   const totalPages = Math.ceil(filteredData.length / ITEMS_PER_PAGE);
 
   const paginatedData = filteredData.slice(
@@ -181,8 +178,6 @@ const TransactionTable = ({ data }) => {
           </Button>
         </div>
       )}
-
-      {/* DETAIL MODAL */}
       <TransactionDetailModal
         open={!!selectedTrx}
         onClose={() => setSelectedTrx(null)}

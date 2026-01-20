@@ -9,7 +9,7 @@ import TransactionChart from "@/Components/charts/TransactionChart";
 const Dashboard = () => {
   // tanggal hari ini (YYYY-MM-DD)
   const today = new Date().toISOString().split("T")[0];
-  const currentMonth = today.slice(0, 7); // YYYY-MM
+  const currentMonth = today.slice(0, 7);
 
   // Transaksi hari ini
   const transaksiHariIni = dummyTransaksi.filter((trx) => trx.date === today);
